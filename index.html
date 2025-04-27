@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Hospital - Your Health, Our Priority</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>MediCare <span>Hospital</span></h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#appointment" class="appointment-btn">Appointment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Health Is Our Priority</h1>
+            <p>Providing exceptional healthcare services with compassion and excellence since 1985</p>
+            <div class="hero-buttons">
+                <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About MediCare Hospital</h2>
+                <p>Excellence in Healthcare for Over 35 Years</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/hospital-building.jpg" alt="Hospital Building" id="hospital-image">
+                </div>
+                <div class="about-text">
+                    <h3>Leading Healthcare Provider</h3>
+                    <p>MediCare Hospital is a state-of-the-art medical facility dedicated to providing exceptional healthcare services to our community. Founded in 1985, we have grown to become one of the most trusted healthcare institutions in the region.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To deliver compassionate, high-quality care that improves the health and well-being of our patients and communities.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To be the healthcare provider of choice by transforming the health experience through a culture of caring, quality, safety, service, innovation, and excellence.</p>
+                    
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <i class="fas fa-user-md"></i>
+                            <h4>150+</h4>
+                            <p>Doctors</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-procedures"></i>
+                            <h4>500+</h4>
+                            <p>Beds</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-smile"></i>
+                            <h4>50,000+</h4>
+                            <p>Happy Patients</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-award"></i>
+                            <h4>25+</h4>
+                            <p>Awards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive Healthcare Solutions</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency medical services with state-of-the-art equipment and experienced staff to handle any medical emergency.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Diagnostic Services</h3>
+                    <p>Comprehensive diagnostic services including laboratory tests, imaging, and specialized screenings.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Specialized Consultations</h3>
+                    <p>Expert consultations with specialists across various medical fields to address specific health concerns.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-procedures"></i>
+                    </div>
+                    <h3>Surgical Procedures</h3>
+                    <p>Advanced surgical procedures performed by skilled surgeons using cutting-edge technology and techniques.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Maternity Care</h3>
+                    <p>Comprehensive maternity services from prenatal care to delivery and postnatal support in a comfortable environment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <h3>Rehabilitation</h3>
+                    <p>Physical, occupational, and speech therapy services to help patients recover from injuries, surgeries, or medical conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Departments</h2>
+                <p>Specialized Care Units</p>
+            </div>
+            <div class="departments-container">
+                <div class="department-tabs">
+                    <div class="tab active" data-department="cardiology">Cardiology</div>
+                    <div class="tab" data-department="neurology">Neurology</div>
+                    <div class="tab" data-department="orthopedics">Orthopedics</div>
+                    <div class="tab" data-department="pediatrics">Pediatrics</div>
+                    <div class="tab" data-department="oncology">Oncology</div>
+                    <div class="tab" data-department="gynecology">Gynecology</div>
+                </div>
+                <div class="department-content">
+                    <div class="department-info active" id="cardiology">
+                        <h3>Cardiology Department</h3>
+                        <p>Our Cardiology Department is equipped with the latest technology to diagnose and treat heart conditions. Our team of experienced cardiologists provides comprehensive care for various heart-related issues, including:</p>
+                        <ul>
+                            <li>Coronary artery disease</li>
+                            <li>Heart failure</li>
+                            <li>Arrhythmias</li>
+                            <li>Valve disorders</li>
+                            <li>Preventive cardiology</li>
+                        </ul>
+                        <p>We offer advanced diagnostic procedures such as echocardiography, stress testing, cardiac catheterization, and electrophysiology studies.</p>
+                    </div>
+                    <div class="department-info" id="neurology">
+                        <h3>Neurology Department</h3>
+                        <p>Our Neurology Department specializes in the diagnosis and treatment of disorders of the nervous system, including the brain, spinal cord, and peripheral nerves. Our neurologists are experts in treating:</p>
+                        <ul>
+                            <li>Stroke</li>
+                            <li>Epilepsy</li>
+                            <li>Multiple sclerosis</li>
+                            <li>Parkinson's disease</li>
+                            <li>Headaches and migraines</li>
+                        </ul>
+                        <p>We utilize advanced neuroimaging techniques and neurophysiological testing to provide accurate diagnoses and effective treatment plans.</p>
+                    </div>
+                    <div class="department-info" id="orthopedics">
+                        <h3>Orthopedics Department</h3>
+                        <p>Our Orthopedics Department focuses on the diagnosis, treatment, and prevention of disorders of the musculoskeletal system. Our orthopedic surgeons specialize in:</p>
+                        <ul>
+                            <li>Joint replacement surgery</li>
+                            <li>Sports medicine</li>
+                            <li>Spine surgery</li>
+                            <li>Trauma care</li>
+                            <li>Pediatric orthopedics</li>
+                        </ul>
+                        <p>We offer comprehensive care for bone and joint conditions, from conservative management to advanced surgical interventions.</p>
+                    </div>
+                    <div class="department-info" id="pediatrics">
+                        <h3>Pediatrics Department</h3>
+                        <p>Our Pediatrics Department provides specialized healthcare for infants, children, and adolescents. Our pediatricians are dedicated to the physical, emotional, and developmental well-being of young patients. Services include:</p>
+                        <ul>
+                            <li>Well-child visits and immunizations</li>
+                            <li>Acute illness management</li>
+                            <li>Chronic disease management</li>
+                            <li>Developmental assessments</li>
+                            <li>Adolescent medicine</li>
+                        </ul>
+                        <p>Our child-friendly environment ensures that young patients feel comfortable and secure during their visits.</p>
+                    </div>
+                    <div class="department-info" id="oncology">
+                        <h3>Oncology Department</h3>
+                        <p>Our Oncology Department provides comprehensive cancer care, from diagnosis to treatment and follow-up. Our multidisciplinary team of oncologists, surgeons, and radiation therapists work together to develop personalized treatment plans. Services include:</p>
+                        <ul>
+                            <li>Medical oncology</li>
+                            <li>Radiation oncology</li>
+                            <li>Surgical oncology</li>
+                            <li>Hematology</li>
+                            <li>Cancer screening and prevention</li>
+                        </ul>
+                        <p>We utilize the latest advancements in cancer treatment to provide the best possible outcomes for our patients.</p>
+                    </div>
+                    <div class="department-info" id="gynecology">
+                        <h3>Gynecology Department</h3>
+                        <p>Our Gynecology Department specializes in women's health, focusing on the female reproductive system. Our gynecologists provide comprehensive care for women of all ages. Services include:</p>
+                        <ul>
+                            <li>Routine gynecological exams</li>
+                            <li>Family planning</li>
+                            <li>Menopause management</li>
+                            <li>Gynecological surgery</li>
+                            <li>Treatment of reproductive disorders</li>
+                        </ul>
+                        <p>We are committed to providing compassionate and personalized care to address the unique health needs of women.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Doctors</h2>
+                <p>Meet Our Expert Medical Team</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="images/doctor1.jpg" alt="Dr. John Smith" id="doctor1-image">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. John Smith</h3>
+                        <p class="specialty">Cardiology</p>
+                        <p class="doctor-description">Dr. Smith is a board-certified cardiologist with over 15 years of experience in treating complex heart conditions.</p>
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="images/doctor2.jpg" alt="Dr. Sarah Johnson" id="doctor2-image">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p class="specialty">Neurology</p>
+                        <p class="doctor-description">Dr. Johnson specializes in neurological disorders and has pioneered several innovative treatment approaches.</p>
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="images/doctor3.jpg" alt="Dr. Michael Chen" id="doctor3-image">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Michael Chen</h3>
+                        <p class="specialty">Orthopedics</p>
+                        <p class="doctor-description">Dr. Chen is an orthopedic surgeon specializing in joint replacement and sports medicine.</p>
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="images/doctor4.jpg" alt="Dr. Emily Rodriguez" id="doctor4-image">
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Emily Rodriguez</h3>
+                        <p class="specialty">Pediatrics</p>
+                        <p class="doctor-description">Dr. Rodriguez is a compassionate pediatrician dedicated to the health and well-being of children of all ages.</p>
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Patient Testimonials</h2>
+                <p>What Our Patients Say About Us</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">The care I received at MediCare Hospital was exceptional. The doctors were knowledgeable and compassionate, and the staff made me feel comfortable throughout my stay. I highly recommend their services.</p>
+                        <div class="testimonial-author">
+                            <h4>Robert Wilson</h4>
+                            <p>Cardiac Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">I was nervous about my surgery, but the team at MediCare Hospital put me at ease. They explained everything clearly and provided excellent care before, during, and after the procedure. I'm grateful for their expertise.</p>
+                        <div class="testimonial-author">
+                            <h4>Jennifer Adams</h4>
+                            <p>Orthopedic Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">The pediatric department at MediCare Hospital is amazing. The doctors and nurses were so patient and kind with my son, making what could have been a scary experience much easier for him. We're thankful for their care.</p>
+                        <div class="testimonial-author">
+                            <h4>David Thompson</h4>
+                            <p>Parent of Pediatric Patient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <div class="testimonial-arrows">
+                    <button class="prev-arrow"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-arrow"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book an Appointment</h2>
+                <p>Schedule Your Visit with Our Specialists</p>
+            </div>
+            <div class="appointment-content">
+                <div class="appointment-form">
+                    <form id="appointmentForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                                    <option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
+                                    <option value="evening">Evening (5:00 PM - 8:00 PM)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="department">Department</label>
+                                <select id="department" name="department" required>
+                                    <option value="">Select Department</option>
+                                    <option value="cardiology">Cardiology</option>
+                                    <option value="neurology">Neurology</option>
+                                    <option value="orthopedics">Orthopedics</option>
+                                    <option value="pediatrics">Pediatrics</option>
+                                    <option value="oncology">Oncology</option>
+                                    <option value="gynecology">Gynecology</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Book Appointment</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="appointment-info">
+                    <h3>Appointment Information</h3>
+                    <p>To schedule an appointment with our specialists, please fill out the form with your details. Our staff will confirm your appointment within 24 hours.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>Call us directly: <strong>(123) 456-7890</strong></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>Email us: <strong>appointments@medicare-hospital.com</strong></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Working Hours: <strong>Monday - Friday: 8:00 AM - 8:00 PM</strong><br>
+                            <strong>Saturday: 9:00 AM - 5:00 PM</strong><br>
+                            <strong>Sunday: Emergency Services Only</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in Touch with MediCare Hospital</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Location</h3>
+                        <p>123 Healthcare Avenue<br>Medical District<br>New York, NY 10001</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Phone Numbers</h3>
+                        <p>Main: (123) 456-7890<br>Emergency: (123) 456-7999<br>Appointments: (123) 456-7800</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Addresses</h3>
+                        <p>General: info@medicare-hospital.com<br>Appointments: appointments@medicare-hospital.com<br>Feedback: feedback@medicare-hospital.com</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 8:00 PM<br>Saturday: 9:00 AM - 5:00 PM<br>Sunday: Emergency Services Only</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div id="map">
+                        <!-- Map will be loaded here via JavaScript -->
+                        <img src="images/map.jpg" alt="Hospital Location Map" id="map-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>MediCare Hospital</h3>
+                    <p>Providing exceptional healthcare services with compassion and excellence since 1985. Our mission is to improve the health and well-being of our community through innovative medical care.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#departments">Departments</a></li>
+                        <li><a href="#doctors">Doctors</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#services">Emergency Care</a></li>
+                        <li><a href="#services">Diagnostic Services</a></li>
+                        <li><a href="#services">Specialized Consultations</a></li>
+                        <li><a href="#services">Surgical Procedures</a></li>
+                        <li><a href="#services">Maternity Care</a></li>
+                        <li><a href="#services">Rehabilitation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to receive updates on health tips, hospital news, and special events.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MediCare Hospital. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
